@@ -35,19 +35,7 @@ public class Lab5 {
 
 
     public static ArrayList<Integer> merge(ArrayList<Integer> a, ArrayList<Integer> b) {
-        /*ArrayList<Integer> shorter = null;
-        ArrayList<Integer> array = new ArrayList<Integer>();
-        for (int i=0; i < a.size(); i++){
-            int element = array.get(i);
-            array.add(element);
-            System.out.println(element);
-            for (int j=0; i < b.size(); j++){
-                int element2 = array.get(j);
-                array.add(element2);
-                System.out.println(element2);
-            }
-        }
-        */
+        
         ArrayList<Integer> shorter = new ArrayList<Integer>();
         ArrayList<Integer> longer = new ArrayList<Integer>();
         ArrayList<Integer> merged = new ArrayList<Integer>();
@@ -86,19 +74,7 @@ public class Lab5 {
             longer = a;
         }
 
-        /*
-        for(int i = 0; i < shorter.size(); i++){
-            if (shorter.get(i) > longer.get(i)){
-                array.add(longer.get(i));
-                array.add(shorter.get(i));
-            }
-            else {
-                array.add(shorter.get(i));
-                array.add(longer.get(i));
-            }
-        }
-        //array.addAll(longer.subList(shorter.size(), longer.size()));
-         */
+       
         int i = 0;
         int j = 0;
         while (i != shorter.size() && j != longer.size()) {
