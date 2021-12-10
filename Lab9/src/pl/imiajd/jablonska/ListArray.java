@@ -1,4 +1,4 @@
 package pl.imiajd.jablonska;
 
-interface Cloneable {
+public class ListArray {
 }
